@@ -1,0 +1,13 @@
+aws-cdk.aws-ecs-patterns
+aws-cdk.aws-glue
+aws-cdk.aws-ec2
+aws-cdk.aws-s3
+aws-cdk.aws-apigateway
+aws-cdk.assets
+aws-cdk.aws-cloudwatch
+aws-cdk.aws-ecs
+aws-cdk.aws-codebuild
+aws-cdk.aws-servicediscovery
+aws-cdk.aws-elasticloadbalancingv2
+aws-cdk.aws-ecs-patterns
+boto3
