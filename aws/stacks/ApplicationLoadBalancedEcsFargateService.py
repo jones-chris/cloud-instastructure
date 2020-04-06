@@ -8,7 +8,7 @@ from aws_cdk import (
 )
 
 
-class ApplicationLoadBalancedEcsFargateService:
+class ApplicationLoadBalancedEcsFargateService(core.Construct):
 
     def __init__(self, scope: core.Construct, id: str, docker_image_name: str, container_port: int, container_cpu: int,
                  container_memory_limit_mib: int, desired_container_count: int, vpc: aws_ec2.Vpc = None, **kwargs):
